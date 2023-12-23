@@ -1,0 +1,84 @@
+*** Descriptive (12 metrics) ***
+
+DESPC                                  Number of paragraphs
+DESSC                                  Number of sentences
+DESWC                                  Number of words
+DESPL                                  Average number of sentences per paragraph
+DESPLd                                 Standard deviation of paragraph lengths (in sentences)
+DESPLw                                 Average number of words per paragraph
+DESSL                                  Average number of words per sentence)
+DESSLd                                 Standard deviation of sentence lengths (in words)
+DESWLsy                                Average word length (syllables)
+DESWLsyd                               Standard Deviation of word lengths (in syllables)
+DESWLlt                                Average word length (letters)
+DESWLltd                               Standard Deviation of word lengths (in letters)
+
+
+*** Lexical Diversity (4 metrics) ***
+
+LDTTRc                                 Type-Token Ratio (TTR) computed over content words
+LDTTRa                                 Type-Token Ratio (TTR) computed over all words
+LDMTLD                                 Measure of Textual Lexical Diversity (MTLD)
+LDHDD                                  HD-D lexical diversity index
+
+
+*** Syntactic Complexity (7 metrics) ***
+
+SYNLE                                  Left embeddedness: average words before main verb
+SYNNP                                  Number of modifiers per noun phrase, mean
+SYNMEDpos                              Average edit distance between POS tags of consecutive sentences
+SYNMEDwrd                              Average edit distance between consecutive sentences
+SYNMEDlem                              Average edit distance between consecutive sentences (lemmatized)
+SYNSTRUTa                              Sentence syntax similarity, adjacent sentences, mean
+SYNSTRUTt                              Sentence syntax similarity, all combinations, mean
+
+
+*** Readability (2 metrics) ***
+
+RDFRE                                  Flesch Reading Ease
+READFKGL                               Flesch-Kincaid Grade Level
+
+
+*** Incidence Scores (21 metrics) ***
+
+TOKEN_ATTRIBUTE_RATIO_ALHPA            Alphanumerical tokens
+TOKEN_ATTRIBUTE_RATIO_DIGIT            Tokens consisting of digits
+TOKEN_ATTRIBUTE_RATIO_PUNCT            Punctuation tokens
+TOKEN_ATTRIBUTE_RATIO_URL              URLs
+TOKEN_ATTRIBUTE_RATIO_EMAIL            E-mail addresses
+WORD_SET_INCIDENCE_WRDPRP1s            First person singular pronouns
+WORD_SET_INCIDENCE_WRDPRP1p            First person plural pronouns
+WORD_SET_INCIDENCE_WRDPRP2             Second person pronouns
+WORD_SET_INCIDENCE_WRDPRP3s            Third person singular pronouns
+WORD_SET_INCIDENCE_WRDPRP3p            Third person plural pronouns
+WORD_SET_INCIDENCE_CNCCaus             Causal connectives
+WORD_SET_INCIDENCE_CNCLogic            Logical connectives
+WORD_SET_INCIDENCE_CNCTemp             Temporal connectives
+WORD_SET_INCIDENCE_CNCAdd              Additive connectives
+WORD_SET_INCIDENCE_CNCPos              Positive connectives
+WORD_SET_INCIDENCE_CNCNeg              Negative connectives
+WORD_PROPERTY_WRDNOUN                  Incidence score for POS tag {'NOUN', 'PROPN'}
+WORD_PROPERTY_WRDVERB                  Incidence score for POS tag {'VERB'}
+WORD_PROPERTY_WRDADJ                   Incidence score for POS tag {'ADJ'}
+WORD_PROPERTY_WRDADV                   Incidence score for POS tag {'ADV'}
+WORD_PROPERTY_WRDFRQc                  Mean Word frequency, content words
+
+
+*** Word Property (16 metrics) ***
+
+WORD_PROPERTY_WRDFRQa                  Mean Word frequency, all words
+WORD_PROPERTY_WRDFRQmc                 Min Word frequency
+WORD_PROPERTY_WRDFAMc                  Mean Familiarity, content words only
+WORD_PROPERTY_WRDCNCc                  Mean Concreteness, content words only
+WORD_PROPERTY_WRDIMGc                  Mean Imagability, content words only
+WORD_PROPERTY_WRDMEAc                  Mean Meaningfulness
+WORD_PROPERTY_WRDPOLc                  Mean Polysemy
+WORD_PROPERTY_WRDHYPn                  Mean Hypernymy (nouns)
+WORD_PROPERTY_WRDHYPv                  Mean Hypernymy (verbs)
+WORD_PROPERTY_WRDHYPnv                 Mean Hypernymy (verbs and nouns)
+WORD_PROPERTY_AOA                      Mean Age of Acqusition
+WORD_PROPERTY_AOA_MAX                  Max Age of Acqusition
+WORD_PROPERTY_CONCRETENESS             Mean Concreteness
+WORD_PROPERTY_PREVALENCE               Mean Prevalence
+WORD_PROPERTY_PREVALENCE_MIN           Mean Prevalence
+WORD_SET_INCIDENCE_C4_COMMON_WORDS     Some common English words used to filter C4 dataset
