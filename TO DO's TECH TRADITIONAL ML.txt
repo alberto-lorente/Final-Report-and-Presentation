@@ -1,3 +1,0 @@
-change the data type of the model list dictionary from np array to json array so that we can export the dictionaries
-
-run the test for all the models (just need to find a way to get all the files from a folder and import them into the notebook)
