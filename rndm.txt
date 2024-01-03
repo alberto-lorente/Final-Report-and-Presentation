@@ -3,3 +3,5 @@
 - feature analysis of the second dataset
 
 - finetuning the first models on the 2nd datase / how to improve performance when model is overfitting
+
+- add feature engineering section to the data stuff: feature importance with correlation matrixes. Feature Construction/transformation is what we did with the TCT
