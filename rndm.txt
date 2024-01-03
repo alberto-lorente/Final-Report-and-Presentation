@@ -1,0 +1,5 @@
+- scaling whole tables, not separated
+
+- feature analysis of the second dataset
+
+- finetuning the first models on the 2nd datase / how to improve performance when model is overfitting
