@@ -1,4 +1,15 @@
+session:
+
+	- we are not actually using the text that we filetered in the feature analysis notebook to pretrain llama for the generated text
+
+	- llama does really bad - dataset was very small. mention in mitigation
+
+	- for the appendix - include explanations of the ling features - data descriptions, licenses of the data, -theory ml stuff, - all the tech stuff we included - parameter choices, - graphs, raw table of all the results, - cross validation performance in graphs
+
+	
+
 Alberto rndm stuff:
+
 
 
 	finish the actual work before writing phase
@@ -8,9 +19,6 @@ Alberto rndm stuff:
 - scaling whole tables, not separated
 
 - doing the eda for the second dataset to explain why the models are not performing that well
-
-
-
 
 - if I have time: do correlation matrices for feature - polarity
 
@@ -49,6 +57,7 @@ Alberto rndm stuff:
 			- subgenre of fake news detection: ai/llm generated detection? we can all tell when a text is ai generated, certain ling characteristics that 			  define ai generated text
 
 
+
 - results discussion:	- use the ml models intuition that queen was doing to explain why some (random forest, k-neighbors) were doing better than others
 
 			- explain insights from the cross-validation
@@ -60,8 +69,6 @@ Alberto rndm stuff:
 			- 
 
 			- 
-
-
 
 
 	at the end
