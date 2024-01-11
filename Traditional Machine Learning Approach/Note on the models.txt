@@ -1,0 +1,17 @@
+The following error
+
+$ git add .
+error: open("Traditional Machine Learning Approach/Models/DESPC__DESPL__DESPLw__DESSL__SYNLE__SYNNP__SYNSTRUTa__RDFRE__READFKGL__TOKEN_ATTRIBUTE_RATIO_ALHPA__WORD_SET_INCIDENCE_CNCAdd__WORD_SET_INCIDENCE_C4_COMMON_WORDS__KNeighborsClassifier.sav"): Filename too long
+error: unable to index file 'Traditional Machine Learning Approach/Models/DESPC__DESPL__DESPLw__DESSL__SYNLE__SYNNP__SYNSTRUTa__RDFRE__READFKGL__TOKEN_ATTRIBUTE_RATIO_ALHPA__WORD_SET_INCIDENCE_CNCAdd__WORD_SET_INCIDENCE_C4_COMMON_WORDS__KNeighborsClassifier.sav'
+fatal: adding files failed
+
+
+
+1. DESPC__DESPL__DESPLw__DESSL__SYNLE__SYNNP__SYNSTRUTa__RDFRE__READFKGL__TOKEN_ATTRIBUTE_RATIO_ALHPA__WORD_SET_INCIDENCE_CNCAdd__WORD_SET_INCIDENCE_C4_COMMON_WORDS__[model]
+
+to
+
+DESPC__(...)_ALHPA__WORD_SET_INCIDENCE_CNCAdd__WORD_SET_INCIDENCE_C4_COMMON_WORDS__[model]
+
+
+in order to push the repository.

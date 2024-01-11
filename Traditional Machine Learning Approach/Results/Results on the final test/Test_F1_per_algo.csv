@@ -1,0 +1,5 @@
+Model type,Overall F1
+RandomForestClassifier,0.40964285714285714
+KNeighborsClassifier,0.39571428571428574
+SVC,0.3853571428571429
+LogisticRegression,0.3846428571428571

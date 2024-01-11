@@ -1,0 +1,5 @@
+Model type,Overall Recall
+RandomForestClassifier,0.5210714285714285
+SVC,0.5032142857142857
+KNeighborsClassifier,0.5007142857142857
+LogisticRegression,0.5003571428571428

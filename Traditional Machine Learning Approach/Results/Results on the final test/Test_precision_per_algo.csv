@@ -1,0 +1,5 @@
+Model type,Overall Precision
+RandomForestClassifier,0.6389285714285714
+KNeighborsClassifier,0.4946428571428571
+LogisticRegression,0.4610714285714286
+SVC,0.4546428571428572
