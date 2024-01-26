@@ -14,3 +14,8 @@ The Models Performance folder contains a zip with the JSON dictionaries with inf
 The Results folder contains the exported csv files from the Results notebook. It contains aggregated results, results per set of features, results per algorithm and so on. 
 
 Finally, the Visualizations folder contains the EDA distribution plots mentioned in the report and the visualizations for the Data Normalization Mitigation section.
+
+## HuggingFace
+
+[Model](https://huggingface.co/2nji/makebelieve)
+[DataSet](https://huggingface.co/datasets/2nji/makebelieve-480)
